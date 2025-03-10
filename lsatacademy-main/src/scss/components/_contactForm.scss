@@ -1,0 +1,225 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    margin-top: 5rem;
+    max-width: 1600px;
+
+  
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2.3rem;
+      text-align: center;
+      font-family: $bree;
+      font-weight: 100;
+
+    }
+  
+    .input {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      gap: 3rem;
+      max-width: 1600px;
+  
+      .details {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+  
+        .email, .name {
+          display: flex;
+          flex-direction: column;
+          max-width: 1600px;
+  
+          label {
+            font-size: 1.8rem;
+            font-family: $bree;
+            font-weight: 100;
+            color: $myblue;
+            padding-left: 1rem;
+            padding-bottom: 0.5rem;
+          }
+  
+          input {
+            max-width: 1600px;
+            width: 100%;
+            height: 3rem;
+            background-color: transparent;
+            border: 2px solid $myblue;
+            border-radius: 50px;
+            padding: 0 1.5rem;
+            color: $myblue;
+            font-size: 1rem;
+            font-family: "Poppins", sans-serif;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+  
+            &::placeholder {
+              color: $myblue;
+              font-size: 1.3remrem;
+            }
+  
+            &:focus {
+              border-color: $mylightblue;
+              box-shadow: $mylightblue;
+            }
+          }
+        }
+      }
+  
+      .message {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        max-width: 1600px;
+  
+        label {
+          font-size: 1.8rem;
+          font-family: $bree;
+          font-weight: 100;
+          color: $myblue;
+          padding-bottom: 0.5rem;
+        }
+  
+        textarea {
+          background-color: transparent;
+          width: 100%;
+          height: 100%;
+          border: 2px solid $myblue;
+          border-radius: 10px;
+          padding: 1rem;
+          color: $myblue;
+          font-size: 1rem;
+          font-family: $poppins;
+          outline: none;
+          resize: none;
+          transition: border-color 0.3s, box-shadow 0.3s;
+  
+          &::placeholder {
+            color: $myblue;
+            font-size: 1.3rem;
+          }
+  
+          &:focus {
+            border-color: $mylightblue;
+            box-shadow: 0 0 5px $mylightblue;
+          }
+        }
+      }
+    }
+    
+}
+/* Popup container */
+.pop-up-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $myblue; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .modal-content {
+    background-color: #fff; 
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+    width: 80%;
+  }
+  
+  .modal-content h2 {
+    color: $myblue; 
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content p {
+    color: $myblue; 
+    margin-bottom: 1.5rem;
+  }
+  
+  .modal-content button {
+    background-color: $myblue; 
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .modal-content button:hover {
+    background-color: $myblue; 
+  }
+@media (min-width: 320px) and (max-width: 768px) {
+    /* Styles for very small phones */
+    form{
+      height: fit-content;
+      padding-right:1rem;
+      width: 100%;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+
+      gap: 20px;
+     
+
+      h2{
+        font-size: 2rem;
+        width: 100vw;
+        margin-bottom: 0rem;
+        
+      }
+      .input{
+        width: 95vw;
+        padding-left: 1rem;
+        padding-right:1rem;
+        flex-direction: column;
+        gap: 10px;
+
+        .details{
+          gap: 30px;
+ 
+          .email,.name{
+            input{
+              width: 80vw;
+              height: 40px;
+            }
+            
+            label{
+              font-size: 1.3rem;
+            }
+          }
+          
+        }
+        .message{
+
+          
+        textarea{
+            width: 90vw;
+            height: 30vh;
+            font-size: 1rem;
+
+          }
+          
+          &::placeholder {
+            color: $myblue;
+            font-size: 1rem;
+          }
+          
+        }
+        
+    }
+}
+
+}
