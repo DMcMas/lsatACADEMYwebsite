@@ -5,7 +5,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://www.lsat.academy/</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -17,7 +17,7 @@
   <!-- About Page -->
   <url>
     <loc>https://www.lsat.academy/about</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -25,7 +25,7 @@
   <!-- Services Page -->
   <url>
     <loc>https://www.lsat.academy/services</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -33,7 +33,7 @@
   <!-- Testimonials Page -->
   <url>
     <loc>https://www.lsat.academy/testimonials</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -41,7 +41,7 @@
   <!-- Consultation Page -->
   <url>
     <loc>https://www.lsat.academy/consultation</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -49,7 +49,7 @@
   <!-- LSAT Explained -->
   <url>
     <loc>https://www.lsat.academy/lsat-explained</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -57,7 +57,7 @@
   <!-- Group Tutoring -->
   <url>
     <loc>https://www.lsat.academy/group-tutoring</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -65,7 +65,7 @@
   <!-- Library Page -->
   <url>
     <loc>https://www.lsat.academy/library</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -73,7 +73,7 @@
   <!-- Resources Page -->
   <url>
     <loc>https://www.lsat.academy/resources</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -81,7 +81,7 @@
   <!-- LSAT Answers -->
   <url>
     <loc>https://www.lsat.academy/lsat-answers</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -89,7 +89,7 @@
   <!-- LSAT Quizlet -->
   <url>
     <loc>https://www.lsat.academy/lsat-quizlet</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -97,7 +97,7 @@
   <!-- Discord Community -->
   <url>
     <loc>https://www.lsat.academy/discord</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -105,7 +105,7 @@
   <!-- Blog: Sufficient Assumption -->
   <url>
     <loc>https://www.lsat.academy/sufficient-assumption</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -113,7 +113,7 @@
   <!-- Blog: Indicator Words -->
   <url>
     <loc>https://www.lsat.academy/indicator-words</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -121,7 +121,7 @@
   <!-- Blog: ABC of Applying to Law School -->
   <url>
     <loc>https://www.lsat.academy/abc</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -129,7 +129,39 @@
   <!-- Blog: LSAT Patterns -->
   <url>
     <loc>https://www.lsat.academy/patterns</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: RC Tips -->
+  <url>
+    <loc>https://www.lsat.academy/rc-tips</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Getting Stuck -->
+  <url>
+    <loc>https://www.lsat.academy/getting-stuck</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Premises -->
+  <url>
+    <loc>https://www.lsat.academy/premises</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: MBT Questions -->
+  <url>
+    <loc>https://www.lsat.academy/mbt-questions</loc>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -137,7 +169,7 @@
   <!-- Privacy Policy -->
   <url>
     <loc>https://www.lsat.academy/privacy-policy</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
