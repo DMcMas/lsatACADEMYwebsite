@@ -21,9 +21,13 @@
     <meta name="theme-color" content="#1a3a52" />
 
     <!-- Performance Optimization -->
-    <link rel="preload" as="image" href="/assets/hero-image.png" />
+    <link rel="preload" as="image" href="/assets/hero-image.png" fetchpriority="high" />
     <link rel="dns-prefetch" href="https://assets.calendly.com">
     <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
+    <link rel="preconnect" href="https://calendly.com" crossorigin>
+    <link rel="dns-prefetch" href="https://calendly.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- Open Graph (OG) Meta Tags for Social Media -->
     <meta property="og:title" content="LSAT Academy | Expert LSAT Tutoring & Test Prep" />
@@ -159,103 +163,13 @@
     }
     </script>
 
-    <!-- 4. Breadcrumb Navigation Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.lsat.academy/#breadcrumbs",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.lsat.academy/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Services",
-          "item": "https://www.lsat.academy/services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "About LSAT",
-          "item": "https://www.lsat.academy/lsat-explained"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Resources",
-          "item": "https://www.lsat.academy/resources"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Consultation",
-          "item": "https://www.lsat.academy/consultation"
-        }
-      ]
-    }
-    </script>
-
-    <!-- 5. FAQ Schema for Rich Snippets -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "@id": "https://www.lsat.academy/#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is LSAT Academy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "LSAT Academy provides expert LSAT tutoring with a 99th percentile tutor. We offer private tutoring, group sessions, comprehensive resources, and free consultations to help you achieve your best LSAT score."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does LSAT tutoring cost?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our pricing varies based on the tutoring package you choose. Book a free consultation to discuss pricing options and find the right solution for your budget and timeline."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I book a free LSAT consultation?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes! We offer free consultations. Visit our consultation page or use the booking button to schedule your free session with our LSAT tutor to discuss your goals."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you offer online LSAT tutoring?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, we provide online LSAT tutoring to students anywhere in the United States. Our flexible sessions can be scheduled around your availability."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What is a good LSAT score?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A good LSAT score is the score that gets you into your target law school with the financial support you need. Scores range from 120-180, with higher scores improving your law school options."
-          }
-        }
-      ]
-    }
-    </script>
+    <!-- BreadcrumbList and FAQPage schema are page-specific and injected per-page via Helmet -->
 
     <!-- Poptin Script -->
     <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=8b717454c0869' async='true'></script>
     
-    <script type="module" crossorigin src="/assets/index-Drp_7pe0.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CYyrE8nB.css">
+    <script type="module" crossorigin src="/assets/index-BHyjDrvZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C1mw-ldJ.css">
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
