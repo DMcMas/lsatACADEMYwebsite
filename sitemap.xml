@@ -83,6 +83,14 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- LR Drill Finder -->
+  <url>
+    <loc>https://www.lsat.academy/drill-finder</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- LSAT Answers -->
   <url>
     <loc>https://www.lsat.academy/lsat-answers</loc>
