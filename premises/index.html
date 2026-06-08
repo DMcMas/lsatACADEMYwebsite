@@ -21,7 +21,8 @@
     <link rel="canonical" href="https://www.lsat.academy/premises" />
 
     <!-- Performance Optimization -->
-    <link rel="preload" as="image" href="/assets/hero-image.webp" type="image/webp" fetchpriority="high" />
+    <!-- Note: the hero-image preload is injected per-route from Home.jsx (it's a
+         home-page-only asset), so it isn't wasted/flagged on other routes. -->
     <link rel="dns-prefetch" href="https://assets.calendly.com">
     <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
     <link rel="preconnect" href="https://calendly.com" crossorigin>
@@ -178,8 +179,8 @@
     <!-- Poptin Script -->
     <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=8b717454c0869' async='true'></script>
     
-    <script type="module" crossorigin src="/assets/index-1sVabWQV.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B_j8573Y.css">
+    <script type="module" crossorigin src="/assets/index-r1jTpBE8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CCFIBaOa.css">
       <meta property="og:title" content="In Defense of the Utility of Premises | LSAT Academy" data-prerender />
     <meta property="og:description" content="A deep dive into why premises matter in LSAT logical reasoning — and how to use them to find the right answer faster." data-prerender />
     <meta property="og:url" content="https://www.lsat.academy/premises" data-prerender />

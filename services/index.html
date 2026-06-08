@@ -21,7 +21,8 @@
     <link rel="canonical" href="https://www.lsat.academy/services" />
 
     <!-- Performance Optimization -->
-    <link rel="preload" as="image" href="/assets/hero-image.webp" type="image/webp" fetchpriority="high" />
+    <!-- Note: the hero-image preload is injected per-route from Home.jsx (it's a
+         home-page-only asset), so it isn't wasted/flagged on other routes. -->
     <link rel="dns-prefetch" href="https://assets.calendly.com">
     <link rel="preconnect" href="https://assets.calendly.com" crossorigin>
     <link rel="preconnect" href="https://calendly.com" crossorigin>
@@ -178,8 +179,8 @@
     <!-- Poptin Script -->
     <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=8b717454c0869' async='true'></script>
     
-    <script type="module" crossorigin src="/assets/index-1sVabWQV.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B_j8573Y.css">
+    <script type="module" crossorigin src="/assets/index-r1jTpBE8.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CCFIBaOa.css">
       <meta property="og:title" content="LSAT Tutoring Services &amp; Pricing | LSAT Academy" data-prerender />
     <meta property="og:description" content="Explore LSAT tutoring options with David McMaster. Private 1-on-1 sessions at $85/hr, discounted 10 and 20-hour packages, group tutoring, and a free consultation." data-prerender />
     <meta property="og:url" content="https://www.lsat.academy/services" data-prerender />
