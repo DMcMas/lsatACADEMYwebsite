@@ -1,0 +1,1 @@
+import{c as e}from"./index-DNJVWRu6.js";const l="https://dtlcpjzxuamkplhpylin.supabase.co",t="sb_publishable_8iUvTj_0U41R66rHfK0R-Q_6ngLtuK1",n=l,o=t,c="drill_questions",_="drill_reviews",L=e(n,o,{auth:{persistSession:!1,autoRefreshToken:!1,detectSessionInUrl:!1,storageKey:"lsat-drill-anon",lock:(a,i,s)=>s()}});export{c as D,_ as a,L as d};
