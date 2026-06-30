@@ -30,6 +30,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Fonts loaded here (one combined request) rather than via @import in CSS,
+         so they fetch in parallel with the stylesheet. Weights are subset to
+         what the site uses — keep in sync with src/scss/style.scss. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@100;400;500;600;700&display=swap">
+
     <!-- Open Graph (OG) Meta Tags for Social Media -->
     <meta property="og:site_name" content="LSAT Academy" />
     <meta property="og:locale" content="en_US" />
@@ -129,7 +134,7 @@
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0",
-        "highPrice": "85",
+        "highPrice": "120",
         "offerCount": 3,
         "offers": [
           {
@@ -137,7 +142,7 @@
             "name": "Private LSAT Tutoring",
             "description": "One-on-one personalized LSAT tutoring with expert strategies tailored to your strengths and weaknesses",
             "url": "https://www.lsat.academy/services",
-            "price": "85",
+            "price": "120",
             "priceCurrency": "USD"
           },
           {
@@ -179,8 +184,9 @@
     <!-- Poptin Script -->
     <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=8b717454c0869' async='true'></script>
     
-    <script type="module" crossorigin src="/assets/index-DNJVWRu6.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CCFIBaOa.css">
+    <script type="module" crossorigin src="/assets/index-sHrzRqOP.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-sF-TG3IY.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-C8WO3gSP.css">
       <meta property="og:title" content="In Defense of the Utility of Premises | LSAT Academy" data-prerender />
     <meta property="og:description" content="A deep dive into why premises matter in LSAT logical reasoning — and how to use them to find the right answer faster." data-prerender />
     <meta property="og:url" content="https://www.lsat.academy/premises" data-prerender />

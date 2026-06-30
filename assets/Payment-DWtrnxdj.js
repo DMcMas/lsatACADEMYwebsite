@@ -1,0 +1,1 @@
+import{j as e}from"./index-sHrzRqOP.js";import{f as t}from"./vendor-sF-TG3IY.js";import{P as o}from"./PackagesSection-qIg0A4E5.js";const a=()=>e.jsxs(e.Fragment,{children:[e.jsxs(t,{children:[e.jsx("title",{children:"LSAT Tutoring Packages & Payment | LSAT Academy"}),e.jsx("meta",{name:"robots",content:"noindex, nofollow"})]}),e.jsx(o,{})]});export{a as default};
