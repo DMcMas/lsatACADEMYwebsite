@@ -3,6 +3,7 @@ Allow: /
 Disallow: /payment
 Disallow: /thank-you-consultation
 Disallow: /thank-you-download
+Disallow: /app-preview
 
 # Explicitly allow major AI crawlers — citations from LLM answers drive referral traffic
 User-agent: GPTBot
@@ -10,18 +11,21 @@ Allow: /
 Disallow: /payment
 Disallow: /thank-you-consultation
 Disallow: /thank-you-download
+Disallow: /app-preview
 
 User-agent: ClaudeBot
 Allow: /
 Disallow: /payment
 Disallow: /thank-you-consultation
 Disallow: /thank-you-download
+Disallow: /app-preview
 
 User-agent: PerplexityBot
 Allow: /
 Disallow: /payment
 Disallow: /thank-you-consultation
 Disallow: /thank-you-download
+Disallow: /app-preview
 
 User-agent: Google-Extended
 Allow: /
