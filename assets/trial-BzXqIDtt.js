@@ -1,0 +1,1 @@
+import{b as c}from"./SessionCalendar-Cfp8eRfK.js";const r=14,a=864e5,i=(t,n=new Date)=>{if(!(t!=null&&t.created_at))return null;const e=new Date(t.created_at);if(Number.isNaN(e.getTime()))return null;const s=new Date(e.getTime()+r*a);return Math.ceil((s-n)/a)},o=t=>c(t)==="guest";export{r as T,o as i,i as t};
